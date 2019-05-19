@@ -10,7 +10,7 @@ var song = new Audio();
 
 // auto playy 
 
-window.onload = playSong();
+$(window).onload = playSong();
 
 function playSong() {
 
@@ -46,11 +46,11 @@ function next(){
      if (currentSong >= 2 ) {
           currentSong = 0;
      }
+     else{
      playSong();
-
      $("#play ion-icon").attr("name", "pause");
 
-     
+     }
 
 
 }
