@@ -32,7 +32,7 @@ html , body {
      top : 50%;
      height: 50%;
      width : 100%;
-     background: url("./img/huyen3.jpg") no-repeat 50% 50%;
+     background: url("./img/huyen3.jpg") no-repeat 50% 20%;
      background-size : cover;
 }
 
